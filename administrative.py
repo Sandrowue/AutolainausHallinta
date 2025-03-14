@@ -85,7 +85,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         simpleList = []
         for tuple in groupList:
             simpleList.append(tuple[0])
-        print('Ajoneuvtyyppilista:', simpleList)
+        # print('Ajoneuvtyyppilista:', simpleList)
         comboBox.clear()
         comboBox.addItems(simpleList)
         
